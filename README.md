@@ -32,12 +32,15 @@ Un script Python pour identifier les insectes à partir d'images en utilisant un
 
 ## Utilisation
 
-1. Placez une image d'insecte dans le répertoire du projet (ou spécifiez le chemin).
+- Pour traiter une image spécifique :
+  ```bash
+  python main.py chemin/vers/votre/image.jpg
+  ```
 
-2. Exécutez le script :
-   ```bash
-   python main.py chemin/vers/votre/image.jpg
-   ```
+- Pour traiter toutes les images du dossier (jpg, jpeg, png, bmp) :
+  ```bash
+  python main.py
+  ```
 
 Le script affichera les prédictions pour chaque niveau taxonomique :
 - ordre
